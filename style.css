@@ -38,6 +38,10 @@ h1 {
   font-size: 1.2rem;
   color: gray;
 }
+.btn-info {
+  font-size: 1.5rem;
+  margin: 20px;
+}
 /*seccion hero*/
 .hero {
   background-color: white;
@@ -132,4 +136,35 @@ transition: all 0.2s ease-in;
 }
 .texto-blanco {
   color: white;
+}
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.proyecto:hover img {
+  opacity: 0.2;
+}
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+.proyecto {
+  position: relative;
+}
+.overlay .iconos-contenedor {
+  display: flex;
+}
+.overlay i {
+ color: black;
+ font-size: 60px;
+ margin: 10px;
 }
