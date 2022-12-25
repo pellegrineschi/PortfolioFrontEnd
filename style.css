@@ -168,3 +168,16 @@ transition: all 0.2s ease-in;
  font-size: 60px;
  margin: 10px;
 }
+/*articulos*/
+.articulos {
+  min-height: 500px;
+  padding: 30px;
+}
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+.articulos .card-header {
+  font-weight: bold;
+}
